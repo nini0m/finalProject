@@ -1,0 +1,16 @@
+<suite name="FINAL PROJECT">
+    <listeners>
+        <listener class-name="org.example.utils.TestListener"/>
+    </listeners>
+
+    <test name="Navigation Scenario">
+        <classes>
+            <class name="org.example.tests.MainTest"/>
+            <class name="org.example.tests.SearchResultsTest"/>
+            <class name="org.example.tests.RemoveFromCartTest"/>
+            <class name="org.example.tests.ChatTest"/>
+            <class name="org.example.tests.LanguageTest"/>
+            <class name="org.example.tests.ApiTest"/>
+        </classes>
+    </test>
+</suite>
